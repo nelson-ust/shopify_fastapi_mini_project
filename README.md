@@ -38,3 +38,39 @@ On macOS and Linux:
 ```bash
 source venv/bin/activate
 ```
+### Step 3: Install Dependencies
+Install the required Python packages using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Environment Variables
+Create a .env file in the root of your project and add the necessary environment variables:
+
+```bash
+SHOP_URL=yourshopifyshop.myshopify.com
+ACCESS_TOKEN=youraccesstoken
+```
+Replace the values with your actual Shopify credentials.
+
+### Step 5: Run the Application
+Start the FastAPI server using Uvicorn:
+
+```bash
+uvicorn app.main:app --reload
+```
+### Step 6: Access the Application
+Open a web browser and navigate to http://localhost:8000. You should see your FastAPI application running.
+
+Access the API documentation at http://localhost:8000/docs to interact with your API.
+
+### Step 7: Running Tests
+To ensure the application works as expected, run the unit tests:
+
+```bash
+pytest
+```
+## Troubleshooting
+
+If you encounter any issues, ensure you have the correct versions of Python and pip installed. Also, make sure all environment variables in the .env file are correctly set.
