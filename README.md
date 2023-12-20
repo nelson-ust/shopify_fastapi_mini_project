@@ -1,6 +1,11 @@
 # Shopify FastAPI Mini Project
 
-This project is a FastAPI application that integrates with Shopify's API to fetch and display order data for specific customer IDs.
+## Project Description
+This Shopify FastAPI Mini Project is designed to integrate with the Shopify API, leveraging FastAPI's capabilities to fetch and display order data based on customer IDs. FastAPI's asynchronous features and its compatibility with modern web services make it an ideal choice for this kind of integration.
+
+![Swagger UI](swagger-ui.jpeg)
+
+![Unit Test outcome] (unit_test.jpeg)
 
 ## Prerequisites
 
