@@ -66,9 +66,9 @@ Start the FastAPI server using Uvicorn:
 uvicorn app.main:app --reload
 ```
 ### Step 6: Access the Application
-Open a web browser and navigate to http://localhost:8000. You should see your FastAPI application running.
+Open a web browser and navigate to http://localhost:8000. You should see the FastAPI application running.
 
-Access the API documentation at http://localhost:8000/docs to interact with your API.
+Access the API documentation at http://localhost:8000/docs to interact with the API.
 
 ### Step 7: Running Tests
 To ensure the application works as expected, run the unit tests:
